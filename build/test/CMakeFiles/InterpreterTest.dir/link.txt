@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/InterpreterTest.dir/interpretertest.cpp.o  -o InterpreterTest  ../src/libInterpreter.a 

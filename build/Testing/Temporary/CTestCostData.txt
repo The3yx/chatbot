@@ -1,0 +1,9 @@
+parsertest 2 0.0012078
+parsertest1 21 0.00029651
+parsertest2 21 0.00017381
+parsertest3 16 0.0001798
+parsertest4 16 0.000286744
+parsertest5 15 0.000267967
+interpretertest1 7 0.00125204
+interpretertest2 5 0.00127412
+---

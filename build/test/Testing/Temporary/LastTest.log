@@ -1,0 +1,19 @@
+Start testing: Dec 26 23:22 CST
+----------------------------------------------------------
+1/1 Testing: parsertest
+1/1 Test: parsertest
+Command: "/home/shanmu/chatbot/build/test/ParserTest" "testscript.txt" "truescript.txt"
+Directory: /home/shanmu/chatbot/build/test
+"parsertest" start time: Dec 26 23:22 CST
+Output:
+----------------------------------------------------------
+打开文件错误
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"parsertest" end time: Dec 26 23:22 CST
+"parsertest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 26 23:22 CST

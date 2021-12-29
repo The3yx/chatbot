@@ -1,0 +1,43 @@
+[
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../src/../header  -g   -o src/CMakeFiles/Interpreter.dir/myerror.cpp.o -c /home/shanmu/chatbot/src/myerror.cpp",
+  "file": "/home/shanmu/chatbot/src/myerror.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../src/../header  -g   -o src/CMakeFiles/Interpreter.dir/interpreter.cpp.o -c /home/shanmu/chatbot/src/interpreter.cpp",
+  "file": "/home/shanmu/chatbot/src/interpreter.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../src/../header  -g   -o src/CMakeFiles/Interpreter.dir/parser.cpp.o -c /home/shanmu/chatbot/src/parser.cpp",
+  "file": "/home/shanmu/chatbot/src/parser.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../src/../header  -g   -o src/CMakeFiles/Interpreter.dir/stub.cpp.o -c /home/shanmu/chatbot/src/stub.cpp",
+  "file": "/home/shanmu/chatbot/src/stub.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../test/../header -I../src/../header  -g   -o test/CMakeFiles/InterpreterTest.dir/interpretertest.cpp.o -c /home/shanmu/chatbot/test/interpretertest.cpp",
+  "file": "/home/shanmu/chatbot/test/interpretertest.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../test/../header -I../src/../header  -g   -o test/CMakeFiles/ParserTest.dir/parsertest.cpp.o -c /home/shanmu/chatbot/test/parsertest.cpp",
+  "file": "/home/shanmu/chatbot/test/parsertest.cpp"
+},
+
+{
+  "directory": "/home/shanmu/chatbot/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I../example/../header -I../src/../header  -g   -o example/CMakeFiles/Example.dir/main.cpp.o -c /home/shanmu/chatbot/example/main.cpp",
+  "file": "/home/shanmu/chatbot/example/main.cpp"
+}
+]

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/parser.h
+string
+-
+map
+-
+list
+-
+vector
+-
+iostream
+-
+
+/home/shanmu/chatbot/test/parsertest.cpp
+parser.h
+/home/shanmu/chatbot/test/parser.h
+assert.h
+-
+stdlib.h
+-
+iostream
+-
+fstream
+-
+

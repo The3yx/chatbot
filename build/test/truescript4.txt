@@ -1,0 +1,23 @@
+entry welcome
+Speak welcome 您好，请问有什么可以帮您？
+Listen welcome 20
+Branch welcome 投诉 complainProc
+Branch welcome 账单 billProc
+Silence welcome silenceProc
+Default welcome defaultProc
+Speak complainProc 您的意见时我们改进的动力，请问您还有什么补充？
+Listen complainProc 20
+Silence complainProc silenceProc
+Default complainProc thanks
+Speak thanks 感谢您的来电，再见。
+Exit thanks
+Speak billProc 您本月的账单为100元，感谢您的来电，再见！
+Exit billProc
+Speak silenceProc 听不清，请您大声一点
+Branch silenceProc 投诉 complainProc
+Branch silenceProc 账单 billProc
+Silence silenceProc silenceProc
+Default silenceProc defaultProc
+Speak defaultProc 不好意思，我不能理解您的意思，不好意思
+Exit defaultProc
+Listen silenceProc 20

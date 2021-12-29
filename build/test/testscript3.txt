@@ -1,0 +1,26 @@
+Step welcome
+    Speak 测试
+    Listen 10
+    Branch 分支1 branch1
+    Branch 分支2 branch2
+    Silence silenceProc
+    Default defaultProc
+    Exit
+Step branch1
+    Speak 测试
+    Listen 15
+    Branch 分支1 branch3
+    Silence silenceProc
+    Default defaultProc
+Step branch2
+    Speak 测试
+    Exit
+Step branch3
+    Speak 测试
+    Exit
+Step silenceProc
+    Speak 测试
+    Exit
+Step defaultProc
+    Speak 测试
+    Exit

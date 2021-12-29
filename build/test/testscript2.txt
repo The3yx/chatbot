@@ -1,0 +1,9 @@
+Step welcome
+    Speak 测试
+    Listen 20
+    Branch 分支1 branch1
+    Silence silenceProc
+    Branch 分支2 branch2
+Step 分支1
+    Speak 测试
+    Exit

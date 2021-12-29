@@ -1,0 +1,28 @@
+Step welcome
+    Speak 您好，请问有什么可以帮您？
+    Listen 20
+    Branch 投诉 complainProc
+    Branch 账单 billProc
+    Silence silenceProc
+    Default defaultProc
+Step complainProc
+    Speak 您的意见时我们改进的动力，请问您还有什么补充？
+    Listen 20
+    Silence silenceProc
+    Default thanks
+Step thanks
+    Speak 感谢您的来电，再见。
+    Exit
+Step billProc
+    Speak 您本月的账单为100元，感谢您的来电，再见！
+    Exit
+Step silenceProc
+    Speak 听不清，请您大声一点
+    Listen 20
+    Branch 投诉 complainProc
+    Branch 账单 billProc
+    Silence silenceProc
+    Default defaultProc
+Step defaultProc
+    Speak 不好意思，我不能理解您的意思，不好意思
+    Exit

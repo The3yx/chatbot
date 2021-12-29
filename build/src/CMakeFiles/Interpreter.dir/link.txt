@@ -1,0 +1,2 @@
+/usr/bin/ar qc libInterpreter.a  CMakeFiles/Interpreter.dir/myerror.cpp.o CMakeFiles/Interpreter.dir/interpreter.cpp.o CMakeFiles/Interpreter.dir/parser.cpp.o CMakeFiles/Interpreter.dir/stub.cpp.o
+/usr/bin/ranlib libInterpreter.a
